@@ -1,0 +1,27 @@
+{
+  "name": "spirits-API",
+  "version": "1.0.0",
+  "description": "Backend server and API for spirits/ toast/ potion app",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tskyles/spirits-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tskyles/spirits-API/issues"
+  },
+  "homepage": "https://github.com/tskyles/spirits-API#readme"
+}
